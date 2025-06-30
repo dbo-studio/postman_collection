@@ -461,7 +461,7 @@
 									}
 								},
 								"url": {
-									"raw": "{{host}}/query/autocomplete?connection_id=1&schema=public&database=default&from_cache=true",
+									"raw": "{{host}}/query/autocomplete?connection_id={{connectionId}}&schema=public&database=default&from_cache=true",
 									"host": [
 										"{{host}}"
 									],
@@ -472,7 +472,7 @@
 									"query": [
 										{
 											"key": "connection_id",
-											"value": "1"
+											"value": "{{connectionId}}"
 										},
 										{
 											"key": "schema",
