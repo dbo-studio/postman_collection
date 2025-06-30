@@ -1807,7 +1807,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{host}}/tree/:nodeId/tabs/:action/fields/:tabId?connectionId=1",
+							"raw": "{{host}}/tree/:nodeId/tabs/:action/fields/:tabId?connectionId={{connectionId}}",
 							"host": [
 								"{{host}}"
 							],
@@ -1822,7 +1822,7 @@
 							"query": [
 								{
 									"key": "connectionId",
-									"value": "1"
+									"value": "{{connectionId}}"
 								}
 							],
 							"variable": [
@@ -1904,7 +1904,7 @@
 							"formdata": []
 						},
 						"url": {
-							"raw": "{{host}}/tree/:nodeId/tabs/:action/fields/object?connectionId=1",
+							"raw": "{{host}}/tree/:nodeId/tabs/:action/fields/object?connectionId={{connectionId}}",
 							"host": [
 								"{{host}}"
 							],
@@ -1919,7 +1919,7 @@
 							"query": [
 								{
 									"key": "connectionId",
-									"value": "1"
+									"value": "{{connectionId}}"
 								}
 							],
 							"variable": [
