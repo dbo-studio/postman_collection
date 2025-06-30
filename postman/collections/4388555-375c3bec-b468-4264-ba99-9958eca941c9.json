@@ -1736,7 +1736,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{host}}/tree?connectionId=1&parentId=default.public.tableContainer",
+							"raw": "{{host}}/tree?connectionId={{connectionId}}&parentId=default.public.tableContainer",
 							"host": [
 								"{{host}}"
 							],
@@ -1746,7 +1746,7 @@
 							"query": [
 								{
 									"key": "connectionId",
-									"value": "1"
+									"value": "{{connectionId}}"
 								},
 								{
 									"key": "parentId",
