@@ -283,7 +283,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"connectionId\": 1,\n    \"nodeId\": \"default.public.data_src\",\n    \"edited\": [\n        {\n            \"conditions\": {\n                \"id\": 3,\n                \"tracking_code\": \"test_update\"\n            },\n            \"values\": {\n                \"tracking_code\": \"test_update\",\n                \"user_id\": 3\n            }\n        }\n    ],\n    \"deleted\": [\n        {\n            \"id\": 3,\n            \"tracking_code\": \"test_update\"\n        }\n    ],\n    \"added\": [\n        {\n            \"pay_add_door_id\": 1\n        }\n    ]\n}",
+							"raw": "{\n    \"connectionId\": {{connectionId}},\n    \"nodeId\": \"default.public.data_src\",\n    \"edited\": [\n        {\n            \"conditions\": {\n                \"id\": 3,\n                \"tracking_code\": \"test_update\"\n            },\n            \"values\": {\n                \"tracking_code\": \"test_update\",\n                \"user_id\": 3\n            }\n        }\n    ],\n    \"deleted\": [\n        {\n            \"id\": 3,\n            \"tracking_code\": \"test_update\"\n        }\n    ],\n    \"added\": [\n        {\n            \"pay_add_door_id\": 1\n        }\n    ]\n}",
 							"options": {
 								"raw": {
 									"language": "json"
