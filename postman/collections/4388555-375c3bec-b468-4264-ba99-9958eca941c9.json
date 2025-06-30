@@ -403,7 +403,7 @@
 							}
 						},
 						"url": {
-							"raw": "{{host}}/query/autocomplete?connectionId=1&fromCache=true",
+							"raw": "{{host}}/query/autocomplete?connectionId={{connectionId}}&fromCache=true",
 							"host": [
 								"{{host}}"
 							],
@@ -414,7 +414,7 @@
 							"query": [
 								{
 									"key": "connectionId",
-									"value": "1"
+									"value": "{{connectionId}}"
 								},
 								{
 									"key": "fromCache",
@@ -422,13 +422,13 @@
 								},
 								{
 									"key": "database",
-									"value": null,
+									"value": "",
 									"type": "text",
 									"disabled": true
 								},
 								{
 									"key": "schema",
-									"value": null,
+									"value": "",
 									"type": "text",
 									"disabled": true
 								}
