@@ -1767,7 +1767,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{host}}/tree/:nodeId/tabs/:action?connectionId=1",
+							"raw": "{{host}}/tree/:nodeId/tabs/:action?connectionId={{connectionId}}",
 							"host": [
 								"{{host}}"
 							],
@@ -1780,7 +1780,7 @@
 							"query": [
 								{
 									"key": "connectionId",
-									"value": "1"
+									"value": "{{connectionId}}"
 								}
 							],
 							"variable": [
