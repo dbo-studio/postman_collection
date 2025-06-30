@@ -43,7 +43,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"connectionId\": 1,\n    \"nodeId\": \"default.public.orders\",\n    \"limit\": 5,\n    \"page\": 1,\n    \"columns\": [],\n    // \"filters\": [\n    //     {\n    //         \"index\": \"8f2fc3ac-c94d-4a07-8949-84f9195425f1\",\n    //         \"column\": \"datasrc_id\",\n    //         \"operator\": \"=\",\n    //         \"value\": \"D1191\",\n    //         \"isActive\": true,\n    //         \"next\": \"AND\"\n    //     }\n    // ],\n    \"sorts\": []\n}",
+							"raw": "{\n    \"connectionId\": 1,\n    \"nodeId\": \"default.public.orders\",\n    \"limit\": 5,\n    \"page\": 1,\n    \"columns\": [],\n    \"filters\": [\n        {\n            \"index\": \"8f2fc3ac-c94d-4a07-8949-84f9195425f1\",\n            \"column\": \"datasrc_id\",\n            \"operator\": \"=\",\n            \"value\": \"D1191\",\n            \"isActive\": true,\n            \"next\": \"AND\"\n        }\n    ],\n    \"sorts\": []\n}",
 							"options": {
 								"raw": {
 									"language": "json"
