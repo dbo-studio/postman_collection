@@ -1988,7 +1988,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "e4c09e15-bf84-47bb-bb4d-cbc2b33dab57",
+				"id": "a59b0eda-a3e9-49d2-876f-9eac7db399f2",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -1998,7 +1998,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "534211ab-d3fa-4c7c-9dd8-686d101093cb",
+				"id": "392f509e-a1ca-4849-a736-52ff69d0d499",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -2010,6 +2010,11 @@
 		{
 			"key": "host",
 			"value": "http://localhost:8080/api",
+			"type": "string"
+		},
+		{
+			"key": "connectionId",
+			"value": "1",
 			"type": "string"
 		}
 	]
