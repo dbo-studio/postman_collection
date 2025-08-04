@@ -1964,7 +1964,7 @@
 			"id": "4388555-fb3ebe74-f7ed-45e8-a99e-feed6b673a25"
 		},
 		{
-			"name": "Histories Copy",
+			"name": "Import/Export",
 			"item": [
 				{
 					"name": "list",
@@ -2096,6 +2096,140 @@
 				}
 			],
 			"id": "4388555-9858653e-97df-4693-a634-65d1593f246e"
+		},
+		{
+			"name": "Import/Export Copy",
+			"item": [
+				{
+					"name": "list",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "e324ef45-ca35-4b5c-a5b6-0c599c89bfb0",
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"id": "4388555-499beb09-2b96-4aa5-8f46-1483f8aadc40",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/histories?connectionId={{connectionId}}&page=1&count=10",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"histories"
+							],
+							"query": [
+								{
+									"key": "connectionId",
+									"value": "{{connectionId}}"
+								},
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "count",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "e324ef45-ca35-4b5c-a5b6-0c599c89bfb0",
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"id": "4388555-a87e0c95-bde5-4b8e-9537-eb01a80036a7",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/histories?connectionId={{connectionId}}",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"histories"
+							],
+							"query": [
+								{
+									"key": "connectionId",
+									"value": "{{connectionId}}"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "4388555-2f8cf577-94fc-405d-9ee8-646c038a1a65"
 		}
 	],
 	"event": [
