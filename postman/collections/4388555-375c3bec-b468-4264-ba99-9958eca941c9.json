@@ -2086,7 +2086,65 @@
 							]
 						}
 					},
-					"response": []
+					"response": [
+						{
+							"id": "4388555-d396a07a-beb9-4c5e-b656-999824434026",
+							"name": "Export",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"connectionId\":{{connectionId}},\n    \"table\":\"test\",\n    \"query\":\"select * from test\",\n    \"format\":\"json\",\n    \"chunkSize\":10,\n    \"savePath\":\"\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host}}/export",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"export"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Mon, 04 Aug 2025 16:24:02 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "64"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"data\": {\n        \"jobId\": 1,\n        \"message\": \"Export job started\"\n    },\n    \"message\": \"\"\n}"
+						}
+					]
 				}
 			],
 			"id": "4388555-9858653e-97df-4693-a634-65d1593f246e"
