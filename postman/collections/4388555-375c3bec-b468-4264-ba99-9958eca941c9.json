@@ -1967,7 +1967,7 @@
 			"name": "Import/Export",
 			"item": [
 				{
-					"name": "list",
+					"name": "Import",
 					"event": [
 						{
 							"listen": "test",
@@ -2035,7 +2035,7 @@
 					"response": []
 				},
 				{
-					"name": "delete",
+					"name": "Export",
 					"event": [
 						{
 							"listen": "test",
