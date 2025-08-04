@@ -1659,7 +1659,7 @@
 							}
 						},
 						"url": {
-							"raw": "{{host}}/histories?connectionId={{connectionId}}&page=0&count=0",
+							"raw": "{{host}}/histories?connectionId={{connectionId}}&page=1&count=10",
 							"host": [
 								"{{host}}"
 							],
@@ -1673,11 +1673,11 @@
 								},
 								{
 									"key": "page",
-									"value": "0"
+									"value": "1"
 								},
 								{
 									"key": "count",
-									"value": "0"
+									"value": "10"
 								}
 							]
 						}
