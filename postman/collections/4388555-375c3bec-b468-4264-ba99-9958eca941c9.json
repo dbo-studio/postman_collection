@@ -2054,7 +2054,7 @@
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "DELETE",
+						"method": "POST",
 						"header": [
 							{
 								"key": "Accept",
@@ -2077,18 +2077,12 @@
 							}
 						},
 						"url": {
-							"raw": "{{host}}/histories?connectionId={{connectionId}}",
+							"raw": "{{host}}/export",
 							"host": [
 								"{{host}}"
 							],
 							"path": [
-								"histories"
-							],
-							"query": [
-								{
-									"key": "connectionId",
-									"value": "{{connectionId}}"
-								}
+								"export"
 							]
 						}
 					},
