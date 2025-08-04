@@ -2020,6 +2020,33 @@
 									"value": "",
 									"type": "text",
 									"uuid": "5fb9a5df-3893-4919-a7c5-39d55f202fd6"
+								},
+								{
+									"key": "format",
+									"value": "json",
+									"type": "text",
+									"uuid": "45db6a98-5ffe-4f13-89ba-d35ab0009b04"
+								},
+								{
+									"key": "continueOnError",
+									"value": "",
+									"type": "text",
+									"uuid": "1ce43d79-049c-4cde-a4ff-4b7fe480312a",
+									"disabled": true
+								},
+								{
+									"key": "skipErrors",
+									"value": "",
+									"type": "text",
+									"uuid": "b43358f0-23bf-4bd6-bee1-2e43b022398f",
+									"disabled": true
+								},
+								{
+									"key": "maxErrors",
+									"value": "",
+									"type": "text",
+									"uuid": "e704e0f6-df35-49ef-8d1f-128b634180f5",
+									"disabled": true
 								}
 							]
 						},
