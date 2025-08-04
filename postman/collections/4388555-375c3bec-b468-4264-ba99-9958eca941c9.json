@@ -1034,13 +1034,19 @@
 							}
 						},
 						"url": {
-							"raw": "{{host}}/connections/{{connectionId}}",
+							"raw": "{{host}}/connections/:connectionId",
 							"host": [
 								"{{host}}"
 							],
 							"path": [
 								"connections",
-								"{{connectionId}}"
+								":connectionId"
+							],
+							"variable": [
+								{
+									"key": "connectionId",
+									"value": "{{connectionId}}"
+								}
 							]
 						}
 					},
