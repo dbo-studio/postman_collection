@@ -2196,26 +2196,13 @@
 							}
 						},
 						"url": {
-							"raw": "{{host}}/histories?connectionId={{connectionId}}&page=1&count=10",
+							"raw": "{{host}}/jobs/1",
 							"host": [
 								"{{host}}"
 							],
 							"path": [
-								"histories"
-							],
-							"query": [
-								{
-									"key": "connectionId",
-									"value": "{{connectionId}}"
-								},
-								{
-									"key": "page",
-									"value": "1"
-								},
-								{
-									"key": "count",
-									"value": "10"
-								}
+								"jobs",
+								"1"
 							]
 						}
 					},
