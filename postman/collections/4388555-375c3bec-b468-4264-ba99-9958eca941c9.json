@@ -2322,12 +2322,12 @@
 							}
 						},
 						"url": {
-							"raw": "{{host}}/job/:jobId",
+							"raw": "{{host}}/jobs/:jobId",
 							"host": [
 								"{{host}}"
 							],
 							"path": [
-								"job",
+								"jobs",
 								":jobId"
 							],
 							"variable": [
