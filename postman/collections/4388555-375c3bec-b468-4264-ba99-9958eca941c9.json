@@ -1986,7 +1986,7 @@
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "GET",
+						"method": "POST",
 						"header": [
 							{
 								"key": "Accept",
@@ -2000,35 +2000,35 @@
 							}
 						],
 						"body": {
-							"mode": "raw",
-							"raw": "",
-							"options": {
-								"raw": {
-									"language": "json"
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "connectionId",
+									"value": "{{connectionId}}",
+									"type": "text",
+									"uuid": "32c22216-f195-4881-921e-9fe89b1760eb"
+								},
+								{
+									"key": "table",
+									"value": "",
+									"type": "text",
+									"uuid": "5e6b3aa6-459b-4812-bb9d-4c7a05cb747a"
+								},
+								{
+									"key": "data",
+									"value": "",
+									"type": "text",
+									"uuid": "5fb9a5df-3893-4919-a7c5-39d55f202fd6"
 								}
-							}
+							]
 						},
 						"url": {
-							"raw": "{{host}}/histories?connectionId={{connectionId}}&page=1&count=10",
+							"raw": "{{host}}/histories",
 							"host": [
 								"{{host}}"
 							],
 							"path": [
 								"histories"
-							],
-							"query": [
-								{
-									"key": "connectionId",
-									"value": "{{connectionId}}"
-								},
-								{
-									"key": "page",
-									"value": "1"
-								},
-								{
-									"key": "count",
-									"value": "10"
-								}
 							]
 						}
 					},
