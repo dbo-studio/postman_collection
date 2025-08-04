@@ -1727,7 +1727,7 @@
 							}
 						},
 						"url": {
-							"raw": "{{host}}/histories?connectionId=1",
+							"raw": "{{host}}/histories?connectionId={{connectionId}}",
 							"host": [
 								"{{host}}"
 							],
@@ -1737,7 +1737,7 @@
 							"query": [
 								{
 									"key": "connectionId",
-									"value": "1"
+									"value": "{{connectionId}}"
 								}
 							]
 						}
