@@ -1760,7 +1760,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{host}}/tree?connectionId={{connectionId}}&parentId=default.public.tableContainer",
+							"raw": "{{host}}/tree?connectionId={{connectionId}}",
 							"host": [
 								"{{host}}"
 							],
@@ -1774,7 +1774,8 @@
 								},
 								{
 									"key": "parentId",
-									"value": "default.public.tableContainer"
+									"value": "default.public.tableContainer",
+									"disabled": true
 								}
 							]
 						}
@@ -2088,7 +2089,7 @@
 					},
 					"response": [
 						{
-							"id": "4388555-d396a07a-beb9-4c5e-b656-999824434026",
+							"id": "4388555-03d4981d-9985-412e-8493-6115213f4bcf",
 							"name": "Export",
 							"originalRequest": {
 								"method": "POST",
@@ -2106,7 +2107,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"connectionId\":{{connectionId}},\n    \"table\":\"test\",\n    \"query\":\"select * from test\",\n    \"format\":\"json\",\n    \"chunkSize\":10,\n    \"savePath\":\"\"\n}",
+									"raw": "{\n    \"connectionId\": {{connectionId}},\n    \"table\": \"test\",\n    \"query\": \"select * from test\",\n    \"format\": \"json\",\n    \"chunkSize\": 1000,\n    \"savePath\": \"\"\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -2129,7 +2130,7 @@
 							"header": [
 								{
 									"key": "Date",
-									"value": "Mon, 04 Aug 2025 16:24:02 GMT"
+									"value": "Mon, 04 Aug 2025 16:47:55 GMT"
 								},
 								{
 									"key": "Content-Type",
@@ -2137,12 +2138,12 @@
 								},
 								{
 									"key": "Content-Length",
-									"value": "64"
+									"value": "51"
 								}
 							],
 							"cookie": [],
 							"responseTime": null,
-							"body": "{\n    \"data\": {\n        \"jobId\": 1,\n        \"message\": \"Export job started\"\n    },\n    \"message\": \"\"\n}"
+							"body": "{\n    \"data\": {\n        \"jobId\": 7\n    },\n    \"message\": \"Export job started\"\n}"
 						}
 					]
 				}
