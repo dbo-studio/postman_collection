@@ -1748,6 +1748,140 @@
 			"id": "4388555-2c8e6e93-af5f-4b1b-a045-6f2211e593d5"
 		},
 		{
+			"name": "Histories Copy",
+			"item": [
+				{
+					"name": "list",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "e324ef45-ca35-4b5c-a5b6-0c599c89bfb0",
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"id": "4388555-bf0b9ac8-4e9f-49b3-b6bd-26fdae4fd818",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/histories?connectionId={{connectionId}}&page=1&count=10",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"histories"
+							],
+							"query": [
+								{
+									"key": "connectionId",
+									"value": "{{connectionId}}"
+								},
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "count",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "e324ef45-ca35-4b5c-a5b6-0c599c89bfb0",
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"id": "4388555-b0a42123-1a9b-47db-872a-3a1c4c994c9a",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/histories?connectionId={{connectionId}}",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"histories"
+							],
+							"query": [
+								{
+									"key": "connectionId",
+									"value": "{{connectionId}}"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "4388555-9858653e-97df-4693-a634-65d1593f246e"
+		},
+		{
 			"name": "Tree",
 			"item": [
 				{
