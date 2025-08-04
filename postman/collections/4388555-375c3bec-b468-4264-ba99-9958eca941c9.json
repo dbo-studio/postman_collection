@@ -2011,15 +2011,15 @@
 								},
 								{
 									"key": "table",
-									"value": "",
+									"value": "test",
 									"type": "text",
 									"uuid": "5e6b3aa6-459b-4812-bb9d-4c7a05cb747a"
 								},
 								{
 									"key": "data",
-									"value": "",
-									"type": "text",
-									"uuid": "5fb9a5df-3893-4919-a7c5-39d55f202fd6"
+									"type": "file",
+									"uuid": "5fb9a5df-3893-4919-a7c5-39d55f202fd6",
+									"src": "/Users/mobinyazdanparast/Desktop/export_20250804_144856.sql"
 								},
 								{
 									"key": "format",
@@ -2051,12 +2051,12 @@
 							]
 						},
 						"url": {
-							"raw": "{{host}}/histories",
+							"raw": "{{host}}/import",
 							"host": [
 								"{{host}}"
 							],
 							"path": [
-								"histories"
+								"import"
 							]
 						}
 					},
