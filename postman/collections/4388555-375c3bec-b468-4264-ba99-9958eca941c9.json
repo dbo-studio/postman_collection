@@ -2212,7 +2212,72 @@
 							]
 						}
 					},
-					"response": []
+					"response": [
+						{
+							"id": "4388555-99f6072f-bc9a-4dfc-8408-be98d7f7126c",
+							"name": "list",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host}}/jobs/:jobId",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"jobs",
+										":jobId"
+									],
+									"variable": [
+										{
+											"key": "jobId",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Mon, 04 Aug 2025 16:50:08 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "132"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"data\": {\n        \"id\": 1,\n        \"type\": \"export\",\n        \"status\": \"completed\",\n        \"progress\": 100,\n        \"message\": \"Job completed successfully\",\n        \"error\": \"\"\n    },\n    \"message\": \"\"\n}"
+						}
+					]
 				},
 				{
 					"name": "cancel",
