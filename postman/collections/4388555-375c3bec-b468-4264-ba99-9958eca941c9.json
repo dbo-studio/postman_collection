@@ -2322,17 +2322,18 @@
 							}
 						},
 						"url": {
-							"raw": "{{host}}/histories?connectionId={{connectionId}}",
+							"raw": "{{host}}/job/:jobId",
 							"host": [
 								"{{host}}"
 							],
 							"path": [
-								"histories"
+								"job",
+								":jobId"
 							],
-							"query": [
+							"variable": [
 								{
-									"key": "connectionId",
-									"value": "{{connectionId}}"
+									"key": "jobId",
+									"value": "1"
 								}
 							]
 						}
