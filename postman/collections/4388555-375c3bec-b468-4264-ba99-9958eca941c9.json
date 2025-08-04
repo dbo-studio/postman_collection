@@ -1962,50 +1962,6 @@
 				}
 			],
 			"id": "4388555-fb3ebe74-f7ed-45e8-a99e-feed6b673a25"
-		},
-		{
-			"name": "https://your-website.vercel.app/api/sync-releases",
-			"id": "4388555-a78c93da-87a2-4675-a753-59d59195c032",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "POST",
-				"header": [
-					{
-						"key": "Authorization",
-						"value": "Bearer YOUR_API_TOKEN_HERE"
-					},
-					{
-						"key": "Content-Type",
-						"value": "application/json"
-					}
-				],
-				"body": {
-					"mode": "raw",
-					"raw": "{\n    \"release_id\": 123456,\n    \"action\": \"test\",\n    \"version\": \"1.0.0\"\n  }",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "https://your-website.vercel.app/api/sync-releases",
-					"protocol": "https",
-					"host": [
-						"your-website",
-						"vercel",
-						"app"
-					],
-					"path": [
-						"api",
-						"sync-releases"
-					]
-				},
-				"description": "Generated from cURL: curl -X POST \"https://your-website.vercel.app/api/sync-releases\" \\\n  -H \"Authorization: Bearer YOUR_API_TOKEN_HERE\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\n    \"release_id\": 123456,\n    \"action\": \"test\",\n    \"version\": \"1.0.0\"\n  }'"
-			},
-			"response": []
 		}
 	],
 	"event": [
