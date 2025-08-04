@@ -1455,13 +1455,19 @@
 							}
 						},
 						"url": {
-							"raw": "{{host}}/saved/1",
+							"raw": "{{host}}/saved/:connectionId",
 							"host": [
 								"{{host}}"
 							],
 							"path": [
 								"saved",
-								"1"
+								":connectionId"
+							],
+							"variable": [
+								{
+									"key": "connectionId",
+									"value": "{{connectionId}}"
+								}
 							]
 						}
 					},
