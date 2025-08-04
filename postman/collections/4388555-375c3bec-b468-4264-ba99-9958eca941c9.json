@@ -1318,7 +1318,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"connectionId\": 1,\n    \"name\": \"orders\",\n    \"query\": \"SELECT * FROM 'orders';\"\n}",
+							"raw": "{\n    \"connectionId\": {{connectionId}},\n    \"name\": \"orders\",\n    \"query\": \"SELECT * FROM 'orders';\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
