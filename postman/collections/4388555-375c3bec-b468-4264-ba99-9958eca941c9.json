@@ -2269,7 +2269,7 @@
 					"response": []
 				},
 				{
-					"name": "delete Copy",
+					"name": "result",
 					"event": [
 						{
 							"listen": "test",
