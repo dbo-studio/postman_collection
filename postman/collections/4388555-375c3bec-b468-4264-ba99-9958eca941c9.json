@@ -2154,7 +2154,7 @@
 			"name": "Jobs",
 			"item": [
 				{
-					"name": "list",
+					"name": "detail",
 					"event": [
 						{
 							"listen": "test",
@@ -2209,7 +2209,7 @@
 					"response": []
 				},
 				{
-					"name": "delete",
+					"name": "cancel",
 					"event": [
 						{
 							"listen": "test",
@@ -2224,6 +2224,66 @@
 						}
 					],
 					"id": "4388555-a87e0c95-bde5-4b8e-9537-eb01a80036a7",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/histories?connectionId={{connectionId}}",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"histories"
+							],
+							"query": [
+								{
+									"key": "connectionId",
+									"value": "{{connectionId}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete Copy",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "e324ef45-ca35-4b5c-a5b6-0c599c89bfb0",
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"id": "4388555-5506a293-30f7-489c-af53-5c6cc9e553f7",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
