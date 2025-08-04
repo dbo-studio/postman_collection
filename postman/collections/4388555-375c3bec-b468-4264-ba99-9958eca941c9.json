@@ -2502,7 +2502,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "a59b0eda-a3e9-49d2-876f-9eac7db399f2",
+				"id": "b9d46e3e-1903-4f62-afa8-0fa992d418be",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -2512,7 +2512,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "392f509e-a1ca-4849-a736-52ff69d0d499",
+				"id": "6dee6066-92ed-4165-bd80-717831dcf1b3",
 				"type": "text/javascript",
 				"exec": [
 					""
