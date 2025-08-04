@@ -1569,7 +1569,7 @@
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "DELETE",
+						"method": "PATCH",
 						"header": [
 							{
 								"key": "Accept",
@@ -1592,13 +1592,19 @@
 							}
 						},
 						"url": {
-							"raw": "{{host}}/saved/2",
+							"raw": "{{host}}/saved/:connectionId",
 							"host": [
 								"{{host}}"
 							],
 							"path": [
 								"saved",
-								"2"
+								":connectionId"
+							],
+							"variable": [
+								{
+									"key": "connectionId",
+									"value": "{{connectionId}}"
+								}
 							]
 						}
 					},
