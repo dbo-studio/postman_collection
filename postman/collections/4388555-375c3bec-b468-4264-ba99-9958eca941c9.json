@@ -2069,7 +2069,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "",
+							"raw": "{\n    \"connectionId\":{{connectionId}},\n    \"table\":\"test\",\n    \"query\":\"select * from test\",\n    \"format\":\"json\",\n    \"chunkSize\":10,\n    \"savePath\":\"\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
