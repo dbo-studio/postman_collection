@@ -929,13 +929,13 @@
 							}
 						},
 						"url": {
-							"raw": "{{host}}/connections/1",
+							"raw": "{{host}}/connections/{{connectionId}}",
 							"host": [
 								"{{host}}"
 							],
 							"path": [
 								"connections",
-								"1"
+								"{{connectionId}}"
 							]
 						}
 					},
