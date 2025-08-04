@@ -1171,7 +1171,7 @@
 							}
 						},
 						"url": {
-							"raw": "{{host}}/saved?connectionId=1&page=1&count=10",
+							"raw": "{{host}}/saved?connectionId={{connectionId}}&page=1&count=10",
 							"host": [
 								"{{host}}"
 							],
@@ -1181,7 +1181,7 @@
 							"query": [
 								{
 									"key": "connectionId",
-									"value": "1"
+									"value": "{{connectionId}}"
 								},
 								{
 									"key": "page",
