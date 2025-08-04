@@ -541,7 +541,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"name\": \"localhost\",\n    \"type\": \"postgresql\",\n    \"options\": {\n        \"name\": \"localhost\",\n        \"host\": \"localhost\",\n        \"port\": 5432,\n        \"username\": \"default\",\n        \"password\": \"secret\",\n        \"database\": \"default\",\n        \"uri\": \"\"\n    }\n}",
+									"raw": "{\n    \"name\": \"localhost\",\n    \"type\": \"postgresql\",\n    \"options\": {\n        \"host\": \"localhost\",\n        \"port\": 5432,\n        \"username\": \"default\",\n        \"password\": \"secret\",\n        \"database\": \"default\",\n        \"uri\": \"\"\n    }\n}",
 									"options": {
 										"raw": {
 											"language": "json"
