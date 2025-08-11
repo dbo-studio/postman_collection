@@ -2618,7 +2618,61 @@
 									]
 								}
 							},
-							"response": []
+							"response": [
+								{
+									"id": "4388555-5f08875c-99d3-4d1c-94d9-54796b822549",
+									"name": "list",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": ""
+										},
+										"url": {
+											"raw": "{{host}}/ai/provider",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"ai",
+												"provider"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": null,
+									"header": [
+										{
+											"key": "Date",
+											"value": "Mon, 11 Aug 2025 15:21:33 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Content-Length",
+											"value": "160"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"data\": [\n        {\n            \"id\": 3,\n            \"type\": \"openai\",\n            \"url\": \"https://openrouter.ai/api/v1\",\n            \"apiKey\": \"sdasd\",\n            \"model\": \"gpt-3.5-turbo\",\n            \"temperature\": 0.2,\n            \"maxTokens\": 512\n        }\n    ],\n    \"message\": \"\"\n}"
+								}
+							]
 						},
 						{
 							"name": "create",
