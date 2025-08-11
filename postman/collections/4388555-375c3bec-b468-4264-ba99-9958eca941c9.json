@@ -2502,7 +2502,20 @@
 			"item": [
 				{
 					"name": "Chat",
-					"item": [],
+					"item": [
+						{
+							"name": "New Request",
+							"id": "4388555-3490fd5e-8a5c-4ba5-afaa-999222f9e080",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": []
+							},
+							"response": []
+						}
+					],
 					"id": "4388555-2c40f95f-b97b-4551-ae39-34335ecb5e2d"
 				},
 				{
