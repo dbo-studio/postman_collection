@@ -2509,6 +2509,30 @@
 					"name": "Provider",
 					"item": [],
 					"id": "4388555-35d35d3e-72f8-4f4c-aa73-654308ef7848"
+				},
+				{
+					"name": "chat",
+					"id": "4388555-c9acf2f5-d961-462d-9811-e4e046519783",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "complete",
+					"id": "4388555-5599a630-4125-4f87-8fb0-f1a7e3436408",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
 				}
 			],
 			"id": "4388555-72174dc5-e57e-42dd-bd8f-05e0cf0e7824"
