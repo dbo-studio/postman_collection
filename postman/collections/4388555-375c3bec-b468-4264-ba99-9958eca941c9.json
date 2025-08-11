@@ -2507,7 +2507,20 @@
 				},
 				{
 					"name": "Provider",
-					"item": [],
+					"item": [
+						{
+							"name": "New Request",
+							"id": "4388555-5464d315-afe8-45ba-8f15-8fe2b8772560",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": []
+							},
+							"response": []
+						}
+					],
 					"id": "4388555-35d35d3e-72f8-4f4c-aa73-654308ef7848"
 				},
 				{
