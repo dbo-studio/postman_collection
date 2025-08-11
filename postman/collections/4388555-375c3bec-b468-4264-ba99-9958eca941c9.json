@@ -2567,7 +2567,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n  \"type\":\"\",\n  \"url\":\"\",\n  \"apiKey\":\"\",\n  \"model\":\"\",\n  \"temperature\":\"\",\n  maxTokens:\"\"\n}\n\nName        string  `json:\"name\"`\n\t\tType        string  `json:\"type\"`\n\t\tUrl         string  `json:\"url\"`\n\t\tApiKey      string  `json:\"apiKey\"`\n\t\tModel       string  `json:\"model\"`\n\t\tTemperature float32 `json:\"temperature\"`\n\t\tMaxTokens   int     `json:\"maxTokens\"`"
+									"raw": "{\n    \"type\": \"\",\n    \"url\": \"\",\n    \"apiKey\": \"\",\n    \"model\": \"\",\n    \"temperature\": \"\",\n    \"maxTokens\": \"\"\n}"
 								},
 								"url": {
 									"raw": "{{host}}/ai/provider",
