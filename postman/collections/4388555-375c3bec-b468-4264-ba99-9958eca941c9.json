@@ -2624,7 +2624,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"title\":\"New chat\"\n}"
+									"raw": "{\n    \"title\": \"New chat\"\n}"
 								},
 								"url": {
 									"raw": "{{host}}/ai/chats",
