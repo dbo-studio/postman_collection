@@ -2583,7 +2583,7 @@
 							"response": []
 						},
 						{
-							"name": "detail",
+							"name": "update",
 							"id": "4388555-392d8122-eadc-457d-8037-ee9b0a86fa7b",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
