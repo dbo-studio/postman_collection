@@ -2715,6 +2715,29 @@
 								}
 							},
 							"response": []
+						},
+						{
+							"name": "detail Copy",
+							"id": "4388555-7df63494-ee5e-4dc9-9578-c0105c826f18",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/ai/chats/1",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"ai",
+										"chats",
+										"1"
+									]
+								}
+							},
+							"response": []
 						}
 					],
 					"id": "4388555-2c40f95f-b97b-4551-ae39-34335ecb5e2d"
