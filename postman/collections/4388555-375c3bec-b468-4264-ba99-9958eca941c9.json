@@ -2701,7 +2701,18 @@
 							},
 							"request": {
 								"method": "GET",
-								"header": []
+								"header": [],
+								"url": {
+									"raw": "{{host}}/ai/chats/1",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"ai",
+										"chats",
+										"1"
+									]
+								}
 							},
 							"response": []
 						}
