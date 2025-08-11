@@ -2740,7 +2740,7 @@
 							"response": [
 								{
 									"id": "4388555-9f045fb3-c2b3-4152-993b-092a49042169",
-									"name": "detail Copy",
+									"name": "delete",
 									"originalRequest": {
 										"method": "DELETE",
 										"header": [],
