@@ -2541,13 +2541,13 @@
 							"response": []
 						},
 						{
-							"name": "list Copy",
+							"name": "create",
 							"id": "4388555-cbe36c80-e98c-4650-8303-d30da5205fb2",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
 							"request": {
-								"method": "GET",
+								"method": "POST",
 								"header": [
 									{
 										"key": "Accept",
