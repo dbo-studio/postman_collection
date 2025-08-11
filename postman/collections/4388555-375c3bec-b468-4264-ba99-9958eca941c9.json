@@ -2509,13 +2509,13 @@
 					"name": "Provider",
 					"item": [
 						{
-							"name": "create Copy",
+							"name": "list",
 							"id": "4388555-2034acac-f7ac-4ccc-8de7-7451ccf29e7d",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
 							},
 							"request": {
-								"method": "POST",
+								"method": "GET",
 								"header": [
 									{
 										"key": "Accept",
