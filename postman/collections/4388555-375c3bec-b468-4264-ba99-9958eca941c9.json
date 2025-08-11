@@ -2655,7 +2655,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "b9d46e3e-1903-4f62-afa8-0fa992d418be",
+				"id": "f7e415e5-067e-4d0b-83aa-083fb27a0bb8",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -2665,7 +2665,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "6dee6066-92ed-4165-bd80-717831dcf1b3",
+				"id": "9e3d3227-dfe3-436c-a23b-7cd243302a98",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -2682,6 +2682,11 @@
 		{
 			"key": "connectionId",
 			"value": "1",
+			"type": "string"
+		},
+		{
+			"key": "ai_api_key",
+			"value": "test",
 			"type": "string"
 		}
 	]
