@@ -2726,14 +2726,20 @@
 								"method": "DELETE",
 								"header": [],
 								"url": {
-									"raw": "{{host}}/ai/chats/1",
+									"raw": "{{host}}/ai/chats/:id",
 									"host": [
 										"{{host}}"
 									],
 									"path": [
 										"ai",
 										"chats",
-										"1"
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "1"
+										}
 									]
 								}
 							},
