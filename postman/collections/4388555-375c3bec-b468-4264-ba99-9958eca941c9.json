@@ -2637,7 +2637,61 @@
 									]
 								}
 							},
-							"response": []
+							"response": [
+								{
+									"id": "4388555-7fc745af-4aa5-442e-9185-a001cd05add5",
+									"name": "create",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"title\":\"New chat\"\n}"
+										},
+										"url": {
+											"raw": "{{host}}/ai/chats",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"ai",
+												"chats"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": null,
+									"header": [
+										{
+											"key": "Date",
+											"value": "Mon, 11 Aug 2025 15:36:57 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Content-Length",
+											"value": "58"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"data\": {\n        \"title\": \"New chat\",\n        \"messages\": null\n    },\n    \"message\": \"\"\n}"
+								}
+							]
 						}
 					],
 					"id": "4388555-2c40f95f-b97b-4551-ae39-34335ecb5e2d"
