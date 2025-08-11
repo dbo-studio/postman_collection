@@ -2747,7 +2747,70 @@
 									]
 								}
 							},
-							"response": []
+							"response": [
+								{
+									"id": "4388555-78b5e1e2-74ce-46ce-a370-918fb5f113b1",
+									"name": "detail",
+									"originalRequest": {
+										"method": "PATCH",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n    \"type\": \"openai\",\n    \"url\": \"https://openrouter.ai/api/v1\",\n    \"apiKey\": \"{{vault:ai_api_key}}\",\n    \"model\": \"gpt-3.5-turbo\"\n}"
+										},
+										"url": {
+											"raw": "{{host}}/ai/provider/4",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"ai",
+												"provider",
+												"4"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": null,
+									"header": [
+										{
+											"key": "Date",
+											"value": "Mon, 11 Aug 2025 15:22:52 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "br"
+										},
+										{
+											"key": "Content-Length",
+											"value": "173"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept-Encoding"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"data\": {\n        \"id\": 4,\n        \"type\": \"openai\",\n        \"url\": \"https://openrouter.ai/api/v1\",\n        \"apiKey\": \"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\",\n        \"model\": \"gpt-3.5-turbo\",\n        \"temperature\": 0.2,\n        \"maxTokens\": 512\n    },\n    \"message\": \"\"\n}"
+								}
+							]
 						}
 					],
 					"id": "4388555-35d35d3e-72f8-4f4c-aa73-654308ef7848"
