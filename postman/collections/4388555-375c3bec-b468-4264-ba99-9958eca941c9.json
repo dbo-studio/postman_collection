@@ -2655,69 +2655,7 @@
 									]
 								}
 							},
-							"response": [
-								{
-									"id": "4388555-d5f9c3b7-fdad-4f68-92a1-687c7e08916a",
-									"name": "create",
-									"originalRequest": {
-										"method": "POST",
-										"header": [
-											{
-												"key": "Accept",
-												"value": "application/json",
-												"type": "text"
-											},
-											{
-												"key": "Content-Type",
-												"value": "application/json",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "{\n    \"type\": \"openai\",\n    \"url\": \"https://openrouter.ai/api/v1\",\n    \"apiKey\": \"{{vault:ai_api_key}}\",\n    \"model\": \"gpt-3.5-turbo\"\n}"
-										},
-										"url": {
-											"raw": "{{host}}/ai/provider",
-											"host": [
-												"{{host}}"
-											],
-											"path": [
-												"ai",
-												"provider"
-											]
-										}
-									},
-									"status": "OK",
-									"code": 200,
-									"_postman_previewlanguage": null,
-									"header": [
-										{
-											"key": "Date",
-											"value": "Mon, 11 Aug 2025 12:58:52 GMT"
-										},
-										{
-											"key": "Content-Type",
-											"value": "application/json"
-										},
-										{
-											"key": "Content-Encoding",
-											"value": "br"
-										},
-										{
-											"key": "Content-Length",
-											"value": "173"
-										},
-										{
-											"key": "Vary",
-											"value": "Accept-Encoding"
-										}
-									],
-									"cookie": [],
-									"responseTime": null,
-									"body": "{\n    \"data\": {\n        \"id\": 3,\n        \"type\": \"openai\",\n        \"url\": \"https://openrouter.ai/api/v1\",\n        \"apiKey\": \"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\",\n        \"model\": \"gpt-3.5-turbo\",\n        \"temperature\": 0.2,\n        \"maxTokens\": 512\n    },\n    \"message\": \"\"\n}"
-								}
-							]
+							"response": []
 						},
 						{
 							"name": "update",
