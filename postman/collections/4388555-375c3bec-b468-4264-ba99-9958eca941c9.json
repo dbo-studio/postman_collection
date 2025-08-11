@@ -2539,6 +2539,43 @@
 								}
 							},
 							"response": []
+						},
+						{
+							"name": "list Copy",
+							"id": "4388555-cbe36c80-e98c-4650-8303-d30da5205fb2",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "{{host}}/ai/chats",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"ai",
+										"chats"
+									]
+								}
+							},
+							"response": []
 						}
 					],
 					"id": "4388555-2c40f95f-b97b-4551-ae39-34335ecb5e2d"
