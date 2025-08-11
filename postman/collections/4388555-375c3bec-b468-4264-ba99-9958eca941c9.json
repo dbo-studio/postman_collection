@@ -2528,13 +2528,13 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "{{host}}/ai/chat",
+									"raw": "{{host}}/ai/chats",
 									"host": [
 										"{{host}}"
 									],
 									"path": [
 										"ai",
-										"chat"
+										"chats"
 									]
 								}
 							},
