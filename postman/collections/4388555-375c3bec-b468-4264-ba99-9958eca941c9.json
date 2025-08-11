@@ -2538,7 +2538,69 @@
 									]
 								}
 							},
-							"response": []
+							"response": [
+								{
+									"id": "4388555-085e663f-4104-4912-96c2-7f9270fb6e3b",
+									"name": "list",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": ""
+										},
+										"url": {
+											"raw": "{{host}}/ai/chats",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"ai",
+												"chats"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": null,
+									"header": [
+										{
+											"key": "Date",
+											"value": "Mon, 11 Aug 2025 15:35:44 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "br"
+										},
+										{
+											"key": "Content-Length",
+											"value": "148"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept-Encoding"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"data\": [\n        {\n            \"id\": 4,\n            \"title\": \"New Chat\",\n            \"createdAt\": \"2025-08-11T18:47:16.69639+03:30\",\n            \"updatedAt\": \"2025-08-11T18:47:16.69639+03:30\"\n        },\n        {\n            \"id\": 3,\n            \"title\": \"New Chat\",\n            \"createdAt\": \"2025-08-11T18:46:49.834234+03:30\",\n            \"updatedAt\": \"2025-08-11T18:46:49.834234+03:30\"\n        },\n        {\n            \"id\": 2,\n            \"title\": \"New Chat\",\n            \"createdAt\": \"2025-08-11T18:46:41.132123+03:30\",\n            \"updatedAt\": \"2025-08-11T18:46:41.132123+03:30\"\n        },\n        {\n            \"id\": 1,\n            \"title\": \"New Chat\",\n            \"createdAt\": \"2025-08-11T15:23:33.564272+03:30\",\n            \"updatedAt\": \"2025-08-11T15:23:33.564272+03:30\"\n        }\n    ],\n    \"message\": \"\"\n}"
+								}
+							]
 						},
 						{
 							"name": "create",
