@@ -2567,7 +2567,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"connectionId\": {{connectionId}},\n    \"nodeId\": \"default.public.orders\",\n    \"limit\": 5,\n    \"page\": 1,\n    \"columns\": [],\n    \"filters\": [\n        {\n            \"index\": \"8f2fc3ac-c94d-4a07-8949-84f9195425f1\",\n            \"column\": \"datasrc_id\",\n            \"operator\": \"=\",\n            \"value\": \"D1191\",\n            \"isActive\": true,\n            \"next\": \"AND\"\n        }\n    ],\n    \"sorts\": []\n}"
+									"raw": "{\n  \"type\":\"\",\n  \"url\":\"\",\n  \"apiKey\":\"\",\n  \"model\":\"\",\n  \"temperature\":\"\",\n  maxTokens:\"\"\n}\n\nName        string  `json:\"name\"`\n\t\tType        string  `json:\"type\"`\n\t\tUrl         string  `json:\"url\"`\n\t\tApiKey      string  `json:\"apiKey\"`\n\t\tModel       string  `json:\"model\"`\n\t\tTemperature float32 `json:\"temperature\"`\n\t\tMaxTokens   int     `json:\"maxTokens\"`"
 								},
 								"url": {
 									"raw": "{{host}}/ai/provider",
