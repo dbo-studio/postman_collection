@@ -2504,7 +2504,7 @@
 					"name": "Chat",
 					"item": [
 						{
-							"name": "New Request",
+							"name": "list",
 							"id": "4388555-3490fd5e-8a5c-4ba5-afaa-999222f9e080",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
