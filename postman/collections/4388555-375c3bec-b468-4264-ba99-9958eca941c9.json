@@ -2692,6 +2692,18 @@
 									"body": "{\n    \"data\": {\n        \"title\": \"New chat\",\n        \"messages\": null\n    },\n    \"message\": \"\"\n}"
 								}
 							]
+						},
+						{
+							"name": "detail",
+							"id": "4388555-a4bbbf58-a104-4d03-8462-df28ec4d725b",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": []
+							},
+							"response": []
 						}
 					],
 					"id": "4388555-2c40f95f-b97b-4551-ae39-34335ecb5e2d"
