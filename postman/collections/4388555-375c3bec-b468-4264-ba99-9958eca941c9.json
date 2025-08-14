@@ -1008,7 +1008,7 @@
 							}
 						},
 						"url": {
-							"raw": "{{host}}/query/autocomplete?connectionId={{connectionId}}&fromCache=true&skipSystem=true",
+							"raw": "{{host}}/query/autocomplete?connectionId={{connectionId}}&fromCache=true",
 							"host": [
 								"{{host}}"
 							],
@@ -1037,7 +1037,8 @@
 								},
 								{
 									"key": "skipSystem",
-									"value": "true"
+									"value": "true",
+									"disabled": true
 								}
 							]
 						}
