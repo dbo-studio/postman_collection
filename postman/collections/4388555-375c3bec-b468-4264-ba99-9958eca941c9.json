@@ -1008,7 +1008,7 @@
 							}
 						},
 						"url": {
-							"raw": "{{host}}/query/autocomplete?connectionId={{connectionId}}&fromCache=true",
+							"raw": "{{host}}/query/autocomplete?connectionId={{connectionId}}&fromCache=true&skipSystem=true",
 							"host": [
 								"{{host}}"
 							],
@@ -1027,15 +1027,17 @@
 								},
 								{
 									"key": "database",
-									"value": "",
-									"type": "text",
+									"value": "default",
 									"disabled": true
 								},
 								{
 									"key": "schema",
-									"value": "",
-									"type": "text",
+									"value": "public",
 									"disabled": true
+								},
+								{
+									"key": "skipSystem",
+									"value": "true"
 								}
 							]
 						}
