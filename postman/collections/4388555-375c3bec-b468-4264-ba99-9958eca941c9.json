@@ -3000,7 +3000,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"connectionId\": {{connectionId}},\n    \"providerId\": {{providerId}},\n    \"chatId\": 1,\n    \"model\": \"gpt-5\",\n    \"message\": \"hi dbo ai\",\n    \"contextOpts\": {\n        \"databases\": [\n            \"default\"\n        ],\n        \"schemas\": [\n            \"public\"\n        ],\n        \"tables\": [\n            \"data_src\", \"datsrcln\"\n        ],\n        \"views\": []\n    }\n}",
+							"raw": "{\n    \"connectionId\": {{connectionId}},\n    \"providerId\": {{providerId}},\n    \"chatId\": 1,\n    \"model\": \"gpt-5\",\n    \"message\": \"hi dbo ai\",\n    \"contextOpts\": {\n        \"databases\": [\n            \"default\"\n        ],\n        \"schemas\": [\n            \"public\"\n        ],\n        \"tables\": [\n            \"data_src\",\n            \"datsrcln\"\n        ],\n        \"views\": []\n    }\n}",
 							"options": {
 								"raw": {
 									"language": "json"
