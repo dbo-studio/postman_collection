@@ -2999,13 +2999,13 @@
 						"method": "POST",
 						"header": [],
 						"url": {
-							"raw": "{{host}}/ai/chats",
+							"raw": "{{host}}/ai/chat",
 							"host": [
 								"{{host}}"
 							],
 							"path": [
 								"ai",
-								"chats"
+								"chat"
 							]
 						}
 					},
