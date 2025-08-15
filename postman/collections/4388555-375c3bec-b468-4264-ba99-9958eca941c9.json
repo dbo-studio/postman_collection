@@ -3000,7 +3000,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{}",
+							"raw": "{\n    \"connectionId\":{{connectionId}}\n}\n\n// ConnectionId uint              `json:\"connectionId\"`\n// \t\tProviderId   uint              `json:\"providerId\"`\n// \t\tModel        string            `json:\"model\"`\n// \t\tMessage      string            `json:\"message\"`\n// \t\tChatId       *uint             `json:\"chatId\"`\n// \t\tContextOpts  *AiContextOptions `json:\"contextOpts\"`\n\n\n//         \tQuery     *string  `json:\"query\"`\n// \t\tDatabases []string `json:\"databases\"`\n// \t\tSchemas   []string `json:\"schemas\"`\n// \t\tTables    []string `json:\"tables\"`\n// \t\tViews     []string `json:\"views\"`",
 							"options": {
 								"raw": {
 									"language": "json"
