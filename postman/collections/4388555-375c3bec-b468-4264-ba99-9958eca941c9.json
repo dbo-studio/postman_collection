@@ -2996,8 +2996,18 @@
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "GET",
-						"header": []
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/ai/chats",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"ai",
+								"chats"
+							]
+						}
 					},
 					"response": []
 				},
