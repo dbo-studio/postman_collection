@@ -3040,7 +3040,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "f7e415e5-067e-4d0b-83aa-083fb27a0bb8",
+				"id": "c4c1a6fd-2eba-4c93-9392-226f7b0cc774",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -3050,7 +3050,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "9e3d3227-dfe3-436c-a23b-7cd243302a98",
+				"id": "20b0ea27-1cce-4d6b-8b62-ab2e0bb6bee1",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -3072,6 +3072,11 @@
 		{
 			"key": "ai_api_key",
 			"value": "test",
+			"type": "string"
+		},
+		{
+			"key": "providerId",
+			"value": "1",
 			"type": "string"
 		}
 	]
