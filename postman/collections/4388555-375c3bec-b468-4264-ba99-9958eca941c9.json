@@ -2723,7 +2723,61 @@
 									]
 								}
 							},
-							"response": []
+							"response": [
+								{
+									"id": "4388555-e75aaa32-0367-4617-985b-36128d2f0eb2",
+									"name": "detail",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{host}}/ai/chats/:chatId",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"ai",
+												"chats",
+												":chatId"
+											],
+											"variable": [
+												{
+													"key": "chatId",
+													"value": "4"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": null,
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sun, 17 Aug 2025 21:13:38 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "br"
+										},
+										{
+											"key": "Content-Length",
+											"value": "365"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept-Encoding"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"data\": {\n        \"id\": 4,\n        \"title\": \"i need to get all ro\",\n        \"createdAt\": \"2025-08-18 00:41:43\",\n        \"messages\": [\n            {\n                \"id\": 5,\n                \"role\": \"user\",\n                \"content\": \"i need to get all rows count in data_src\",\n                \"type\": \"user\",\n                \"language\": \"sql\",\n                \"1createdAt\": \"2025-08-18 00:41:57\"\n            },\n            {\n                \"id\": 6,\n                \"role\": \"assistant\",\n                \"content\": \"SELECT COUNT(*) FROM data_src;\",\n                \"type\": \"code\",\n                \"language\": \"sql\",\n                \"1createdAt\": \"2025-08-18 00:41:57\"\n            },\n            {\n                \"id\": 7,\n                \"role\": \"user\",\n                \"content\": \"explane how it works\",\n                \"type\": \"user\",\n                \"language\": \"\",\n                \"1createdAt\": \"2025-08-18 00:42:37\"\n            },\n            {\n                \"id\": 8,\n                \"role\": \"assistant\",\n                \"content\": \"The SQL query 'SELECT COUNT(*) FROM data_src;' is used to retrieve the total number of rows in the 'data_src' table. The 'COUNT(*)' function counts all non-NULL values in a database column, and since we're using '*' (asterisk), it will count all rows.\",\n                \"type\": \"explanation\",\n                \"language\": \"\",\n                \"1createdAt\": \"2025-08-18 00:42:37\"\n            }\n        ]\n    },\n    \"message\": \"\"\n}"
+								}
+							]
 						},
 						{
 							"name": "delete",
