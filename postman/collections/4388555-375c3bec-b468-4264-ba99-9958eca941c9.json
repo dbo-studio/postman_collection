@@ -2706,14 +2706,20 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{host}}/ai/chats/1",
+									"raw": "{{host}}/ai/chats/:chatId",
 									"host": [
 										"{{host}}"
 									],
 									"path": [
 										"ai",
 										"chats",
-										"1"
+										":chatId"
+									],
+									"variable": [
+										{
+											"key": "chatId",
+											"value": "1"
+										}
 									]
 								}
 							},
