@@ -2541,7 +2541,69 @@
 									]
 								}
 							},
-							"response": []
+							"response": [
+								{
+									"id": "4388555-85cee670-e77e-49ec-9f29-d7fb5417eb67",
+									"name": "list",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"key": "Accept",
+												"value": "application/json",
+												"type": "text"
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": ""
+										},
+										"url": {
+											"raw": "{{host}}/ai/chats",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"ai",
+												"chats"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": null,
+									"header": [
+										{
+											"key": "Date",
+											"value": "Sun, 17 Aug 2025 00:14:42 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "br"
+										},
+										{
+											"key": "Content-Length",
+											"value": "133"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept-Encoding"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"data\": [\n        {\n            \"id\": 18,\n            \"title\": \"what about today row\",\n            \"createdAt\": \"2025-08-17 03:13:06\"\n        },\n        {\n            \"id\": 17,\n            \"title\": \"i need a query to ge\",\n            \"createdAt\": \"2025-08-17 03:11:18\"\n        },\n        {\n            \"id\": 16,\n            \"title\": \"hi dbo ai\",\n            \"createdAt\": \"2025-08-17 03:07:43\"\n        }\n    ],\n    \"message\": \"\"\n}"
+								}
+							]
 						},
 						{
 							"name": "create",
