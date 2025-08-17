@@ -3024,7 +3024,63 @@
 							]
 						}
 					},
-					"response": []
+					"response": [
+						{
+							"id": "4388555-a332dff1-7e56-433e-8ab7-a271a1f0c388",
+							"name": "chat",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"connectionId\": {{connectionId}},\n    \"providerId\": {{providerId}},\n    \"chatId\": 17,\n    \"model\": \"llama3.1\",\n    \"message\": \"what about today rows\",\n    \"contextOpts\": {\n        \"database\": \"default\",\n        \"schema\": \"public\",\n        \"tables\": [\n            \"data_src\",\n            \"datsrcln\"\n        ],\n        \"views\": []\n    }\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host}}/ai/chat",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"ai",
+										"chat"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sun, 17 Aug 2025 00:12:47 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Encoding",
+									"value": "br"
+								},
+								{
+									"key": "Content-Length",
+									"value": "303"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept-Encoding"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"data\": {\n        \"chatId\": 17,\n        \"message\": {\n            \"role\": \"assistant\",\n            \"content\": \"To get the count of rows in the `data_src` table for today's date, you can use the following SQL query:\\n\\n```sql\\nSELECT COUNT(*) as today_count\\nFROM public.data_src\\nWHERE year = CURRENT_DATE;\\n```\\n\\nThis will return a single row with one column, `today_count`, which contains the total number of rows in the `data_src` table for today's date.\",\n            \"createdAt\": \"2025-08-17 03:42:47\"\n        }\n    },\n    \"message\": \"\"\n}"
+						}
+					]
 				},
 				{
 					"name": "complete",
