@@ -2642,7 +2642,7 @@
 							},
 							"response": [
 								{
-									"id": "4388555-7fc745af-4aa5-442e-9185-a001cd05add5",
+									"id": "4388555-f62c0045-059b-41e6-b7f2-96b530178ba6",
 									"name": "create",
 									"originalRequest": {
 										"method": "POST",
@@ -2660,7 +2660,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\n    \"title\":\"New chat\"\n}"
+											"raw": "{\n    \"connectionId\": {{connectionId}},\n    \"title\": \"New chat\"\n}"
 										},
 										"url": {
 											"raw": "{{host}}/ai/chats",
@@ -2679,7 +2679,7 @@
 									"header": [
 										{
 											"key": "Date",
-											"value": "Mon, 11 Aug 2025 15:36:57 GMT"
+											"value": "Sun, 17 Aug 2025 16:30:11 GMT"
 										},
 										{
 											"key": "Content-Type",
@@ -2687,12 +2687,12 @@
 										},
 										{
 											"key": "Content-Length",
-											"value": "58"
+											"value": "97"
 										}
 									],
 									"cookie": [],
 									"responseTime": null,
-									"body": "{\n    \"data\": {\n        \"title\": \"New chat\",\n        \"messages\": null\n    },\n    \"message\": \"\"\n}"
+									"body": "{\n    \"data\": {\n        \"id\": 1,\n        \"title\": \"New chat\",\n        \"createdAt\": \"2025-08-17 20:00:11\",\n        \"messages\": []\n    },\n    \"message\": \"\"\n}"
 								}
 							]
 						},
