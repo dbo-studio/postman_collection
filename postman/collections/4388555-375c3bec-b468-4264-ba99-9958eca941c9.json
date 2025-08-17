@@ -2723,61 +2723,7 @@
 									]
 								}
 							},
-							"response": [
-								{
-									"id": "4388555-9418f7af-824e-442b-b282-2c153053b5c9",
-									"name": "detail",
-									"originalRequest": {
-										"method": "GET",
-										"header": [],
-										"url": {
-											"raw": "{{host}}/ai/chats/:chatId",
-											"host": [
-												"{{host}}"
-											],
-											"path": [
-												"ai",
-												"chats",
-												":chatId"
-											],
-											"variable": [
-												{
-													"key": "chatId",
-													"value": "17"
-												}
-											]
-										}
-									},
-									"status": "OK",
-									"code": 200,
-									"_postman_previewlanguage": null,
-									"header": [
-										{
-											"key": "Date",
-											"value": "Sun, 17 Aug 2025 00:15:10 GMT"
-										},
-										{
-											"key": "Content-Type",
-											"value": "application/json"
-										},
-										{
-											"key": "Content-Encoding",
-											"value": "br"
-										},
-										{
-											"key": "Content-Length",
-											"value": "560"
-										},
-										{
-											"key": "Vary",
-											"value": "Accept-Encoding"
-										}
-									],
-									"cookie": [],
-									"responseTime": null,
-									"body": "{\n    \"data\": {\n        \"id\": 17,\n        \"title\": \"i need a query to ge\",\n        \"createdAt\": \"2025-08-17 03:11:18\",\n        \"messages\": [\n            {\n                \"role\": \"user\",\n                \"content\": \"i need a query to get total count of data_src table rows\",\n                \"createdAt\": \"2025-08-17 03:12:28\"\n            },\n            {\n                \"role\": \"assistant\",\n                \"content\": \"You can use the following SQL query to get the total count of rows in the `data_src` table:\\n\\n```sql\\nSELECT COUNT(*) as total_count\\nFROM public.data_src;\\n```\\n\\nThis will return a single row with one column, `total_count`, which contains the total number of rows in the `data_src` table.\",\n                \"createdAt\": \"2025-08-17 03:12:28\"\n            },\n            {\n                \"role\": \"user\",\n                \"content\": \"what about today rows\",\n                \"createdAt\": \"2025-08-17 03:39:10\"\n            },\n            {\n                \"role\": \"assistant\",\n                \"content\": \"To get the count of rows in the `data_src` table for today's date, you can use the following SQL query:\\n\\n```sql\\nSELECT COUNT(*) as today_count\\nFROM public.data_src\\nWHERE EXTRACT(YEAR FROM CURRENT_DATE) = EXTRACT(YEAR FROM year)\\nAND EXTRACT(MONTH FROM CURRENT_DATE) = EXTRACT(MONTH FROM year)\\nAND EXTRACT(DAY FROM CURRENT_DATE) = EXTRACT(DAY FROM year);\\n```\\n\\nThis query will return a single row with one column, `today_count`, which contains the total number of rows in the `data_src` table for today's date.\\n\\nNote: This assumes that the `year` column is of type `date`. If it's not, you may need to adjust the query accordingly.\",\n                \"createdAt\": \"2025-08-17 03:39:10\"\n            },\n            {\n                \"role\": \"user\",\n                \"content\": \"what about today rows\",\n                \"createdAt\": \"2025-08-17 03:42:47\"\n            },\n            {\n                \"role\": \"assistant\",\n                \"content\": \"To get the count of rows in the `data_src` table for today's date, you can use the following SQL query:\\n\\n```sql\\nSELECT COUNT(*) as today_count\\nFROM public.data_src\\nWHERE year = CURRENT_DATE;\\n```\\n\\nThis will return a single row with one column, `today_count`, which contains the total number of rows in the `data_src` table for today's date.\",\n                \"createdAt\": \"2025-08-17 03:42:47\"\n            }\n        ]\n    },\n    \"message\": \"\"\n}"
-								}
-							]
+							"response": []
 						},
 						{
 							"name": "delete",
