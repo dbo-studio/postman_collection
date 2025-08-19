@@ -2627,7 +2627,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"connectionId\": {{connectionId}},\n    \"title\": \"New chat\"\n}"
+									"raw": "{\n    \"connectionId\": {{connectionId}},\n    \"title\": \"New chat\",\n    \"providerId\": {{providerId}},\n    \"model\": \"llama3.1\"\n}"
 								},
 								"url": {
 									"raw": "{{host}}/ai/chats",
