@@ -3066,7 +3066,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"connectionId\": {{connectionId}},\n    \"providerId\": {{providerId}},\n    \"chatId\": 1,\n    \"model\": \"llama3.1\",\n    \"message\": \"i need to get all rows count in data_src\",\n    \"contextOpts\": {\n        \"database\": \"default\",\n        \"schema\": \"public\",\n        \"tables\": [\n            \"data_src\",\n            \"datsrcln\"\n        ],\n        \"views\": []\n    }\n}",
+							"raw": "{\n    \"connectionId\": {{connectionId}},\n    \"providerId\": {{providerId}},\n    \"chatId\": null,\n    \"model\": \"llama3.1\",\n    \"message\": \"i need to get all rows count in data_src\",\n    \"contextOpts\": {\n        \"query\": \"\",\n        \"database\": \"default\",\n        \"schema\": \"public\",\n        \"tables\": [\n            \"data_src\",\n            \"datsrcln\"\n        ],\n        \"views\": []\n    }\n}",
 							"options": {
 								"raw": {
 									"language": "json"
