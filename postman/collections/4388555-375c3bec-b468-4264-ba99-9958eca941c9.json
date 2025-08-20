@@ -2664,13 +2664,11 @@
 									"query": [
 										{
 											"key": "page",
-											"value": "1",
-											"type": "text"
+											"value": "1"
 										},
 										{
 											"key": "count",
-											"value": "10",
-											"type": "text"
+											"value": "10"
 										}
 									],
 									"variable": [
