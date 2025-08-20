@@ -2752,55 +2752,7 @@
 									]
 								}
 							},
-							"response": [
-								{
-									"id": "4388555-9f045fb3-c2b3-4152-993b-092a49042169",
-									"name": "delete",
-									"originalRequest": {
-										"method": "DELETE",
-										"header": [],
-										"url": {
-											"raw": "{{host}}/ai/chats/1",
-											"host": [
-												"{{host}}"
-											],
-											"path": [
-												"ai",
-												"chats",
-												"1"
-											]
-										}
-									},
-									"status": "OK",
-									"code": 200,
-									"_postman_previewlanguage": null,
-									"header": [
-										{
-											"key": "Date",
-											"value": "Mon, 11 Aug 2025 21:51:56 GMT"
-										},
-										{
-											"key": "Content-Type",
-											"value": "application/json"
-										},
-										{
-											"key": "Content-Encoding",
-											"value": "br"
-										},
-										{
-											"key": "Content-Length",
-											"value": "142"
-										},
-										{
-											"key": "Vary",
-											"value": "Accept-Encoding"
-										}
-									],
-									"cookie": [],
-									"responseTime": null,
-									"body": "{\n    \"data\": [\n        {\n            \"id\": 5,\n            \"title\": \"New Chat\",\n            \"createdAt\": \"2025-08-11T19:06:10.015024+03:30\"\n        },\n        {\n            \"id\": 4,\n            \"title\": \"New Chat\",\n            \"createdAt\": \"2025-08-11T18:47:16.69639+03:30\"\n        },\n        {\n            \"id\": 3,\n            \"title\": \"New Chat\",\n            \"createdAt\": \"2025-08-11T18:46:49.834234+03:30\"\n        },\n        {\n            \"id\": 2,\n            \"title\": \"New Chat\",\n            \"createdAt\": \"2025-08-11T18:46:41.132123+03:30\"\n        },\n        {\n            \"id\": 1,\n            \"title\": \"New Chat\",\n            \"createdAt\": \"2025-08-11T15:23:33.564272+03:30\"\n        }\n    ],\n    \"message\": \"\"\n}"
-								}
-							]
+							"response": []
 						}
 					],
 					"id": "4388555-2c40f95f-b97b-4551-ae39-34335ecb5e2d"
