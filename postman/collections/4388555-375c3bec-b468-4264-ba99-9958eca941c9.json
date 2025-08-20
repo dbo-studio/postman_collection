@@ -2543,7 +2543,7 @@
 							},
 							"response": [
 								{
-									"id": "4388555-8295e4e3-43c1-4ddb-bed2-75da91285605",
+									"id": "4388555-b101ada7-5006-432a-b012-414c6fcedb15",
 									"name": "list",
 									"originalRequest": {
 										"method": "GET",
@@ -2580,7 +2580,7 @@
 									"header": [
 										{
 											"key": "Date",
-											"value": "Sun, 17 Aug 2025 21:17:23 GMT"
+											"value": "Wed, 20 Aug 2025 00:16:38 GMT"
 										},
 										{
 											"key": "Content-Type",
@@ -2592,7 +2592,7 @@
 										},
 										{
 											"key": "Content-Length",
-											"value": "109"
+											"value": "143"
 										},
 										{
 											"key": "Vary",
@@ -2601,7 +2601,7 @@
 									],
 									"cookie": [],
 									"responseTime": null,
-									"body": "{\n    \"data\": [\n        {\n            \"id\": 4,\n            \"title\": \"i need to get all ro\",\n            \"createdAt\": \"2025-08-18 00:41:43\"\n        },\n        {\n            \"id\": 3,\n            \"title\": \"i need to get all ro\",\n            \"createdAt\": \"2025-08-18 00:33:01\"\n        },\n        {\n            \"id\": 2,\n            \"title\": \"i need to get all ro\",\n            \"createdAt\": \"2025-08-18 00:30:38\"\n        },\n        {\n            \"id\": 1,\n            \"title\": \"i need to get all ro\",\n            \"createdAt\": \"2025-08-18 00:28:30\"\n        }\n    ],\n    \"message\": \"\"\n}"
+									"body": "{\n    \"data\": [\n        {\n            \"id\": 12,\n            \"title\": \"New chat\",\n            \"providerId\": 5,\n            \"model\": \"llama3.1\",\n            \"createdAt\": \"2025-08-20 02:03:00\"\n        },\n        {\n            \"id\": 13,\n            \"title\": \"i need to get all ro\",\n            \"providerId\": 5,\n            \"model\": \"llama3.1\",\n            \"createdAt\": \"2025-08-20 03:11:19\"\n        },\n        {\n            \"id\": 11,\n            \"title\": \"New chat\",\n            \"providerId\": 5,\n            \"model\": \"llama3.1\",\n            \"createdAt\": \"2025-08-20 01:45:55\"\n        }\n    ],\n    \"message\": \"\"\n}"
 								}
 							]
 						},
@@ -2640,61 +2640,7 @@
 									]
 								}
 							},
-							"response": [
-								{
-									"id": "4388555-f62c0045-059b-41e6-b7f2-96b530178ba6",
-									"name": "create",
-									"originalRequest": {
-										"method": "POST",
-										"header": [
-											{
-												"key": "Accept",
-												"value": "application/json",
-												"type": "text"
-											},
-											{
-												"key": "Content-Type",
-												"value": "application/json",
-												"type": "text"
-											}
-										],
-										"body": {
-											"mode": "raw",
-											"raw": "{\n    \"connectionId\": {{connectionId}},\n    \"title\": \"New chat\"\n}"
-										},
-										"url": {
-											"raw": "{{host}}/ai/chats",
-											"host": [
-												"{{host}}"
-											],
-											"path": [
-												"ai",
-												"chats"
-											]
-										}
-									},
-									"status": "OK",
-									"code": 200,
-									"_postman_previewlanguage": null,
-									"header": [
-										{
-											"key": "Date",
-											"value": "Sun, 17 Aug 2025 16:30:11 GMT"
-										},
-										{
-											"key": "Content-Type",
-											"value": "application/json"
-										},
-										{
-											"key": "Content-Length",
-											"value": "97"
-										}
-									],
-									"cookie": [],
-									"responseTime": null,
-									"body": "{\n    \"data\": {\n        \"id\": 1,\n        \"title\": \"New chat\",\n        \"createdAt\": \"2025-08-17 20:00:11\",\n        \"messages\": []\n    },\n    \"message\": \"\"\n}"
-								}
-							]
+							"response": []
 						},
 						{
 							"name": "detail",
