@@ -2752,7 +2752,61 @@
 									]
 								}
 							},
-							"response": []
+							"response": [
+								{
+									"id": "4388555-f66a9823-0e13-4d42-8787-b7187894e3ae",
+									"name": "delete",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "{{host}}/ai/chats/:id",
+											"host": [
+												"{{host}}"
+											],
+											"path": [
+												"ai",
+												"chats",
+												":id"
+											],
+											"variable": [
+												{
+													"key": "id",
+													"value": "11"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": null,
+									"header": [
+										{
+											"key": "Date",
+											"value": "Wed, 20 Aug 2025 00:17:29 GMT"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										},
+										{
+											"key": "Content-Encoding",
+											"value": "br"
+										},
+										{
+											"key": "Content-Length",
+											"value": "131"
+										},
+										{
+											"key": "Vary",
+											"value": "Accept-Encoding"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": "{\n    \"data\": [\n        {\n            \"id\": 12,\n            \"title\": \"New chat\",\n            \"providerId\": 5,\n            \"model\": \"llama3.1\",\n            \"createdAt\": \"2025-08-20 02:03:00\"\n        },\n        {\n            \"id\": 13,\n            \"title\": \"i need to get all ro\",\n            \"providerId\": 5,\n            \"model\": \"llama3.1\",\n            \"createdAt\": \"2025-08-20 03:11:19\"\n        }\n    ],\n    \"message\": \"\"\n}"
+								}
+							]
 						}
 					],
 					"id": "4388555-2c40f95f-b97b-4551-ae39-34335ecb5e2d"
