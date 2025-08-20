@@ -2652,7 +2652,7 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{host}}/ai/chats/:chatId",
+									"raw": "{{host}}/ai/chats/:chatId?page=1&count=10",
 									"host": [
 										"{{host}}"
 									],
@@ -2661,10 +2661,22 @@
 										"chats",
 										":chatId"
 									],
+									"query": [
+										{
+											"key": "page",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "count",
+											"value": "10",
+											"type": "text"
+										}
+									],
 									"variable": [
 										{
 											"key": "chatId",
-											"value": "1"
+											"value": "12"
 										}
 									]
 								}
