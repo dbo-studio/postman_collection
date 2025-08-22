@@ -2531,13 +2531,30 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "{{host}}/ai/chats",
+									"raw": "{{host}}/ai/chats?connectionId={{connectionId}}&count=1&page=1",
 									"host": [
 										"{{host}}"
 									],
 									"path": [
 										"ai",
 										"chats"
+									],
+									"query": [
+										{
+											"key": "connectionId",
+											"value": "{{connectionId}}",
+											"type": "text"
+										},
+										{
+											"key": "count",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "page",
+											"value": "1",
+											"type": "text"
+										}
 									]
 								}
 							},
