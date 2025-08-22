@@ -2542,18 +2542,15 @@
 									"query": [
 										{
 											"key": "connectionId",
-											"value": "{{connectionId}}",
-											"type": "text"
+											"value": "{{connectionId}}"
 										},
 										{
 											"key": "count",
-											"value": "1",
-											"type": "text"
+											"value": "1"
 										},
 										{
 											"key": "page",
-											"value": "1",
-											"type": "text"
+											"value": "1"
 										}
 									]
 								}
