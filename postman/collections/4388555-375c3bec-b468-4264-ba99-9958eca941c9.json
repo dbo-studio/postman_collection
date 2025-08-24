@@ -16,7 +16,16 @@
 					},
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"url": {
+							"raw": "{{host}}/config",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"config"
+							]
+						}
 					},
 					"response": []
 				}
