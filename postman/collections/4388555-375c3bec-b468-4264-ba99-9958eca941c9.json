@@ -3124,7 +3124,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"connectionId\": 1,\n    \"providerId\": 1,\n    \"model\": \"gpt-3.5-turbo\",\n    \"prompt\": \"SELECT * FROM users WHERE\",\n    \"suffix\": \"age > 18\",\n    \"contextOpts\": {\n        \"database\": \"myapp\",\n        \"schema\": \"public\",\n        \"query\": \"SELECT * FROM users\"\n    }\n}",
+							"raw": "{\n    \"connectionId\": {{connectionId}},\n    \"providerId\": {{providerId}},\n    \"model\": \"gpt-3.5-turbo\",\n    \"prompt\": \"SELECT * FROM users WHERE\",\n    \"suffix\": \"age > 18\",\n    \"contextOpts\": {\n        \"database\": \"myapp\",\n        \"schema\": \"public\",\n        \"query\": \"SELECT * FROM users\"\n    }\n}",
 							"options": {
 								"raw": {
 									"language": "json"
