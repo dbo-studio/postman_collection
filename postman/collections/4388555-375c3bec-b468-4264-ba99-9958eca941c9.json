@@ -3121,7 +3121,17 @@
 					},
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"url": {
+							"raw": "{{host}}/ai/chat",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"ai",
+								"chat"
+							]
+						}
 					},
 					"response": []
 				}
