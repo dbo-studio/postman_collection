@@ -3132,13 +3132,13 @@
 							}
 						},
 						"url": {
-							"raw": "{{host}}/ai/chat",
+							"raw": "{{host}}/ai/complete",
 							"host": [
 								"{{host}}"
 							],
 							"path": [
 								"ai",
-								"chat"
+								"complete"
 							]
 						}
 					},
