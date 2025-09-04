@@ -2848,7 +2848,7 @@
 							},
 							"response": [
 								{
-									"id": "4388555-b40036c9-3340-4541-abc1-74375876801e",
+									"id": "4388555-d7f1d414-9195-4cbf-8caa-ff0e16b2ba48",
 									"name": "list",
 									"originalRequest": {
 										"method": "GET",
@@ -2885,11 +2885,11 @@
 									"header": [
 										{
 											"key": "Date",
-											"value": "Wed, 20 Aug 2025 00:16:55 GMT"
+											"value": "Thu, 04 Sep 2025 18:28:16 GMT"
 										},
 										{
 											"key": "Content-Type",
-											"value": "application/json"
+											"value": "application/json; charset=utf-8"
 										},
 										{
 											"key": "Content-Encoding",
@@ -2897,7 +2897,7 @@
 										},
 										{
 											"key": "Content-Length",
-											"value": "308"
+											"value": "326"
 										},
 										{
 											"key": "Vary",
@@ -2906,7 +2906,7 @@
 									],
 									"cookie": [],
 									"responseTime": null,
-									"body": "{\n    \"data\": [\n        {\n            \"id\": 1,\n            \"type\": \"openai\",\n            \"apiKey\": null,\n            \"url\": \"https://api.openai.com/v1\",\n            \"timeout\": 30,\n            \"models\": [\n                \"gpt-5\",\n                \"gpt-4o\"\n            ],\n            \"temperature\": null,\n            \"maxTokens\": null,\n            \"lastUsedAt\": \"2025-08-19 23:57:20\"\n        },\n        {\n            \"id\": 2,\n            \"type\": \"anthropic\",\n            \"apiKey\": null,\n            \"url\": \"https://api.anthropic.com/v1\",\n            \"timeout\": 30,\n            \"models\": [\n                \"claude-3-5-sonnet\"\n            ],\n            \"temperature\": null,\n            \"maxTokens\": null,\n            \"lastUsedAt\": \"2025-08-19 23:57:20\"\n        },\n        {\n            \"id\": 3,\n            \"type\": \"gemini\",\n            \"apiKey\": null,\n            \"url\": \"https://generativelanguage.googleapis.com\",\n            \"timeout\": 30,\n            \"models\": [\n                \"gemini-2.0-flash\"\n            ],\n            \"temperature\": null,\n            \"maxTokens\": null,\n            \"lastUsedAt\": \"2025-08-19 23:57:20\"\n        },\n        {\n            \"id\": 4,\n            \"type\": \"groq\",\n            \"apiKey\": null,\n            \"url\": \"https://api.groq.com/v1\",\n            \"timeout\": 30,\n            \"models\": [\n                \"groq-3-7-sonnet\"\n            ],\n            \"temperature\": null,\n            \"maxTokens\": null,\n            \"lastUsedAt\": \"2025-08-19 23:57:20\"\n        },\n        {\n            \"id\": 5,\n            \"type\": \"ollama\",\n            \"apiKey\": null,\n            \"url\": \"http://localhost:11434\",\n            \"timeout\": 60,\n            \"models\": [\n                \"llama3.1\"\n            ],\n            \"temperature\": null,\n            \"maxTokens\": null,\n            \"lastUsedAt\": \"2025-08-19 23:58:20\"\n        }\n    ],\n    \"message\": \"\"\n}"
+									"body": "{\n    \"data\": [\n        {\n            \"id\": 1,\n            \"type\": \"openai\",\n            \"apiKey\": null,\n            \"url\": \"https://api.openai.com/v1\",\n            \"timeout\": 30,\n            \"models\": [\n                \"gpt-5\",\n                \"gpt-4o\"\n            ],\n            \"isActive\": true,\n            \"model\": \"gpt-5\",\n            \"lastUsedAt\": \"2025-09-04 21:56:26\"\n        },\n        {\n            \"id\": 2,\n            \"type\": \"anthropic\",\n            \"apiKey\": null,\n            \"url\": \"https://api.anthropic.com/v1\",\n            \"timeout\": 30,\n            \"models\": [\n                \"claude-3-5-sonnet\"\n            ],\n            \"isActive\": false,\n            \"model\": \"claude-3-5-sonnet\",\n            \"lastUsedAt\": \"2025-09-04 21:56:26\"\n        },\n        {\n            \"id\": 3,\n            \"type\": \"gemini\",\n            \"apiKey\": null,\n            \"url\": \"https://generativelanguage.googleapis.com/v1beta/openai\",\n            \"timeout\": 30,\n            \"models\": [\n                \"gemini-2.0-flash\"\n            ],\n            \"isActive\": false,\n            \"model\": \"gemini-2.0-flash\",\n            \"lastUsedAt\": \"2025-09-04 21:56:26\"\n        },\n        {\n            \"id\": 4,\n            \"type\": \"groq\",\n            \"apiKey\": null,\n            \"url\": \"https://api.x.ai/v1\",\n            \"timeout\": 30,\n            \"models\": [\n                \"grok-4\"\n            ],\n            \"isActive\": false,\n            \"model\": \"grok-4\",\n            \"lastUsedAt\": \"2025-09-04 21:56:26\"\n        },\n        {\n            \"id\": 5,\n            \"type\": \"ollama\",\n            \"apiKey\": null,\n            \"url\": \"http://localhost:11434/v1\",\n            \"timeout\": 60,\n            \"models\": [\n                \"llama3.1\"\n            ],\n            \"isActive\": false,\n            \"model\": \"llama3.1\",\n            \"lastUsedAt\": \"2025-09-04 21:56:26\"\n        }\n    ],\n    \"message\": \"\"\n}"
 								}
 							]
 						},
