@@ -3124,7 +3124,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"connectionId\": {{connectionId}},\n    \"providerId\": {{providerId}},\n    \"model\": \"llama3.1\",\n    \"contextOpts\": {\n        \"database\": \"default\",\n        \"schema\": \"public\",\n        \"prompt\": \"SELECT * FROM data_src WHERE\",\n        \"suffix\": \"age > 18\"\n    }\n}",
+							"raw": "{\n    \"connectionId\": {{connectionId}},\n    \"contextOpts\": {\n        \"database\": \"default\",\n        \"schema\": \"public\",\n        \"prompt\": \"SELECT * FROM data_src\",\n        \"suffix\": \"age > 18\"\n    }\n}",
 							"options": {
 								"raw": {
 									"language": "json"
