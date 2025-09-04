@@ -3142,7 +3142,55 @@
 							]
 						}
 					},
-					"response": []
+					"response": [
+						{
+							"id": "4388555-0fba5561-6b5f-44d4-8b0a-61c9dee8924c",
+							"name": "complete",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"connectionId\": {{connectionId}},\n    \"contextOpts\": {\n        \"database\": \"default\",\n        \"schema\": \"public\",\n        \"prompt\": \"SELECT * FROM data_src\",\n        \"suffix\": \"age > 18\"\n    }\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host}}/ai/complete",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"ai",
+										"complete"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "Date",
+									"value": "Thu, 04 Sep 2025 21:01:15 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "59"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": "{\n    \"data\": {\n        \"completion\": \"WHERE age > 18;\"\n    },\n    \"message\": \"\"\n}"
+						}
+					]
 				}
 			],
 			"id": "4388555-72174dc5-e57e-42dd-bd8f-05e0cf0e7824"
