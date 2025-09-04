@@ -2932,7 +2932,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"url\": \"http://localhost:11434\",\n    \"apiKey\": \"{{vault:ai_api_key}}\",\n    \"model\": \"llama3.1\",\n    \"temperature\": 0.2,\n    \"maxTokens\": 512,\n    \"timeout\": 30\n}"
+									"raw": "{\n    \"url\": \"http://localhost:11434\",\n    \"apiKey\": \"{{vault:ai_api_key}}\",\n    \"timeout\": 30,\n    \"isActive\": true,\n    \"model\": \"llama3.1\",\n    \"models\": []\n}"
 								},
 								"url": {
 									"raw": "{{host}}/ai/providers/:providerId",
