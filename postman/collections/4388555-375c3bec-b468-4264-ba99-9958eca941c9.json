@@ -28,6 +28,27 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "Config Copy",
+					"id": "4388555-92f89d58-3355-474f-8507-f32fce558b57",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/config",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"config"
+							]
+						}
+					},
+					"response": []
 				}
 			],
 			"id": "4388555-eb0f356c-8550-4d8c-abe6-bdadbf9c82d3"
