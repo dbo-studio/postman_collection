@@ -30,7 +30,7 @@
 					"response": []
 				},
 				{
-					"name": "Config Copy",
+					"name": "Check Update",
 					"id": "4388555-92f89d58-3355-474f-8507-f32fce558b57",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -39,12 +39,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{host}}/config",
+							"raw": "{{host}}/config/check-update",
 							"host": [
 								"{{host}}"
 							],
 							"path": [
-								"config"
+								"config",
+								"check-update"
 							]
 						}
 					},
