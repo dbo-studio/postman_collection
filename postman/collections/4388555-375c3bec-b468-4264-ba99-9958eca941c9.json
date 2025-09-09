@@ -1812,7 +1812,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{host}}/tree?connectionId={{connectionId}}",
+							"raw": "{{host}}/tree?connectionId={{connectionId}}&fromCache=true",
 							"host": [
 								"{{host}}"
 							],
@@ -1828,6 +1828,11 @@
 									"key": "parentId",
 									"value": "default.public.tableContainer",
 									"disabled": true
+								},
+								{
+									"key": "fromCache",
+									"value": "true",
+									"type": "text"
 								}
 							]
 						}
