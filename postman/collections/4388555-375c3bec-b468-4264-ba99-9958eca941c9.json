@@ -52,7 +52,7 @@
 					"response": []
 				},
 				{
-					"name": "Check Update Copy",
+					"name": "Logs",
 					"id": "4388555-c2c4090d-672e-4120-8d74-57a00ccdc66b",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -61,13 +61,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{host}}/config/check-update",
+							"raw": "{{host}}/config/logs",
 							"host": [
 								"{{host}}"
 							],
 							"path": [
 								"config",
-								"check-update"
+								"logs"
 							]
 						}
 					},
