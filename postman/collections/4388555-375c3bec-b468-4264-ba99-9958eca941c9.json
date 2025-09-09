@@ -50,6 +50,28 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "Check Update Copy",
+					"id": "4388555-c2c4090d-672e-4120-8d74-57a00ccdc66b",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/config/check-update",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"config",
+								"check-update"
+							]
+						}
+					},
+					"response": []
 				}
 			],
 			"id": "4388555-eb0f356c-8550-4d8c-abe6-bdadbf9c82d3"
