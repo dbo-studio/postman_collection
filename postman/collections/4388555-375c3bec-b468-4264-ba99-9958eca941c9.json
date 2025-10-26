@@ -3243,6 +3243,18 @@
 				}
 			],
 			"id": "4388555-72174dc5-e57e-42dd-bd8f-05e0cf0e7824"
+		},
+		{
+			"name": "New Request",
+			"id": "4388555-90b79ac6-b721-49d7-8819-614f4c39ba5e",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
 		}
 	],
 	"event": [
