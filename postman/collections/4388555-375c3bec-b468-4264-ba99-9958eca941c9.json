@@ -1995,7 +1995,7 @@
 					"response": []
 				},
 				{
-					"name": "object Copy",
+					"name": "dynamic object",
 					"id": "4388555-b3d84e24-1880-476b-8d13-6d1df4f00320",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
