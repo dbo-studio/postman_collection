@@ -2004,7 +2004,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{host}}/tree/:nodeId/tabs/:action/fields/:tabId/object?connectionId={{connectionId}}",
+							"raw": "{{host}}/tree/:nodeId/tabs/:action/fields/dynamic/:tabId/:fieldId?connectionId={{connectionId}}",
 							"host": [
 								"{{host}}"
 							],
@@ -2014,8 +2014,9 @@
 								"tabs",
 								":action",
 								"fields",
+								"dynamic",
 								":tabId",
-								"object"
+								":fieldId"
 							],
 							"query": [
 								{
@@ -2025,19 +2026,20 @@
 							],
 							"variable": [
 								{
-									"id": "74202680-9be2-442a-9f73-e2f5022e8a1f",
 									"key": "nodeId",
 									"value": "default.public.data_src"
 								},
 								{
-									"id": "905b9077-9d63-4a9d-96ae-f7be4f062ef1",
 									"key": "action",
 									"value": "createTable"
 								},
 								{
-									"id": "43834b0e-54c1-4469-b44a-a097aacf35c3",
 									"key": "tabId",
 									"value": "table"
+								},
+								{
+									"key": "fieldId",
+									"value": ""
 								}
 							]
 						}
