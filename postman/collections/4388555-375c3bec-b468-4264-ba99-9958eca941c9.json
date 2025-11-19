@@ -9,7 +9,7 @@
 			"name": "Config",
 			"item": [
 				{
-					"name": "Config",
+					"name": "config",
 					"id": "4388555-4c4a560a-c2fb-44ec-bba1-b8a8398c5a1c",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
