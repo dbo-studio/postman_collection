@@ -2035,11 +2035,11 @@
 								},
 								{
 									"key": "tabId",
-									"value": "table"
+									"value": "table_foreign_keys"
 								},
 								{
 									"key": "fieldId",
-									"value": ""
+									"value": "row_0_target_columns"
 								}
 							]
 						}
