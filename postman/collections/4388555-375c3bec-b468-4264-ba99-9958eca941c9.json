@@ -30,7 +30,7 @@
 					"response": []
 				},
 				{
-					"name": "check update",
+					"name": "check_update",
 					"id": "4388555-92f89d58-3355-474f-8507-f32fce558b57",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -1995,7 +1995,7 @@
 					"response": []
 				},
 				{
-					"name": "dynamic object",
+					"name": "dynamic_object",
 					"id": "4388555-b3d84e24-1880-476b-8d13-6d1df4f00320",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
