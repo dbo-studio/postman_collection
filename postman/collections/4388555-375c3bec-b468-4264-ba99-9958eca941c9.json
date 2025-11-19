@@ -1995,6 +1995,56 @@
 					"response": []
 				},
 				{
+					"name": "object Copy",
+					"id": "4388555-b3d84e24-1880-476b-8d13-6d1df4f00320",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/tree/:nodeId/tabs/:action/fields/:tabId/object?connectionId={{connectionId}}",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"tree",
+								":nodeId",
+								"tabs",
+								":action",
+								"fields",
+								":tabId",
+								"object"
+							],
+							"query": [
+								{
+									"key": "connectionId",
+									"value": "{{connectionId}}"
+								}
+							],
+							"variable": [
+								{
+									"id": "74202680-9be2-442a-9f73-e2f5022e8a1f",
+									"key": "nodeId",
+									"value": "default.public.data_src"
+								},
+								{
+									"id": "905b9077-9d63-4a9d-96ae-f7be4f062ef1",
+									"key": "action",
+									"value": "createTable"
+								},
+								{
+									"id": "43834b0e-54c1-4469-b44a-a097aacf35c3",
+									"key": "tabId",
+									"value": "table"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
 					"name": "execute",
 					"id": "4388555-5072d213-6a27-4e2b-a87c-287a49234b7f",
 					"protocolProfileBehavior": {
