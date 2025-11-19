@@ -2097,7 +2097,7 @@
 			"name": "Import/Export",
 			"item": [
 				{
-					"name": "Import",
+					"name": "import",
 					"event": [
 						{
 							"listen": "test",
@@ -2192,7 +2192,7 @@
 					"response": []
 				},
 				{
-					"name": "Export",
+					"name": "export",
 					"event": [
 						{
 							"listen": "test",
