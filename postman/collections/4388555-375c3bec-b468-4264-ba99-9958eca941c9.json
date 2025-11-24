@@ -2014,7 +2014,7 @@
 							}
 						},
 						"url": {
-							"raw": "{{host}}/tree/:nodeId/tabs/:action/fields/:tabId/dynamic?connectionId={{connectionId}}",
+							"raw": "{{host}}/tree/:nodeId/tabs/:action/fields/:tabId/dynamic?connectionId={{connectionId}}&field=columns&table=data_src",
 							"host": [
 								"{{host}}"
 							],
@@ -2031,6 +2031,16 @@
 								{
 									"key": "connectionId",
 									"value": "{{connectionId}}"
+								},
+								{
+									"key": "field",
+									"value": "columns",
+									"type": "text"
+								},
+								{
+									"key": "table",
+									"value": "data_src",
+									"type": "text"
 								}
 							],
 							"variable": [
