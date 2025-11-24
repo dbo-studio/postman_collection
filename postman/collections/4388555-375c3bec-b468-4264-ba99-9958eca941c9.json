@@ -2005,7 +2005,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{host}}/tree/:nodeId/tabs/:action/fields/dynamic/:tabId/:fieldId?connectionId={{connectionId}}",
+							"raw": "{{host}}/tree/:nodeId/tabs/:action/fields/:tabId/dynamic/:fieldId?connectionId={{connectionId}}",
 							"host": [
 								"{{host}}"
 							],
@@ -2015,8 +2015,8 @@
 								"tabs",
 								":action",
 								"fields",
-								"dynamic",
 								":tabId",
+								"dynamic",
 								":fieldId"
 							],
 							"query": [
