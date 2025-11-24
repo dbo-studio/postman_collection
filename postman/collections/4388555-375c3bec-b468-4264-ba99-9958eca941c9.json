@@ -2005,7 +2005,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{host}}/tree/:nodeId/tabs/:action/fields/:tabId/dynamic?connectionId={{connectionId}}&table&params[\"field\"]=columns&params[\"table\"]=data_src",
+							"raw": "{{host}}/tree/:nodeId/tabs/:action/fields/:tabId/dynamic?connectionId={{connectionId}}",
 							"host": [
 								"{{host}}"
 							],
@@ -2022,20 +2022,6 @@
 								{
 									"key": "connectionId",
 									"value": "{{connectionId}}"
-								},
-								{
-									"key": "table",
-									"value": null
-								},
-								{
-									"key": "params[\"field\"]",
-									"value": "columns",
-									"type": "text"
-								},
-								{
-									"key": "params[\"table\"]",
-									"value": "data_src",
-									"type": "text"
 								}
 							],
 							"variable": [
