@@ -1902,7 +1902,7 @@
 					"response": []
 				},
 				{
-					"name": "fields",
+					"name": "schema",
 					"id": "4388555-3be0e41d-233b-48bf-86fd-638507f7088a",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
