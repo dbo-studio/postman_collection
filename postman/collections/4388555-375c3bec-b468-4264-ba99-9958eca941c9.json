@@ -2005,7 +2005,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{host}}/tree/:nodeId/tabs/:action/fields/:tabId/dynamic/:fieldId?connectionId={{connectionId}}",
+							"raw": "{{host}}/tree/:nodeId/tabs/:action/fields/:tabId/dynamic?connectionId={{connectionId}}&table",
 							"host": [
 								"{{host}}"
 							],
@@ -2016,13 +2016,22 @@
 								":action",
 								"fields",
 								":tabId",
-								"dynamic",
-								":fieldId"
+								"dynamic"
 							],
 							"query": [
 								{
 									"key": "connectionId",
 									"value": "{{connectionId}}"
+								},
+								{
+									"key": "table",
+									"value": null
+								},
+								{
+									"key": "field",
+									"value": null,
+									"type": "text",
+									"disabled": true
 								}
 							],
 							"variable": [
@@ -2037,10 +2046,6 @@
 								{
 									"key": "tabId",
 									"value": "table_foreign_keys"
-								},
-								{
-									"key": "fieldId",
-									"value": "columns"
 								}
 							]
 						}
