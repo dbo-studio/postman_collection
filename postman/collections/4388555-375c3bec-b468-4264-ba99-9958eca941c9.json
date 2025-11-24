@@ -2004,6 +2004,15 @@
 					"request": {
 						"method": "GET",
 						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"field\":\"table\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
 						"url": {
 							"raw": "{{host}}/tree/:nodeId/tabs/:action/fields/:tabId/dynamic?connectionId={{connectionId}}",
 							"host": [
