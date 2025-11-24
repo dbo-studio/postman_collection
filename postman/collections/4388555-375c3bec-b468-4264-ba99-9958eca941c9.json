@@ -1911,7 +1911,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{host}}/tree/:nodeId/tabs/:action/fields/:tabId?connectionId={{connectionId}}",
+							"raw": "{{host}}/tree/:nodeId/tabs/:action/fields/:tabId/schema?connectionId={{connectionId}}",
 							"host": [
 								"{{host}}"
 							],
@@ -1921,7 +1921,8 @@
 								"tabs",
 								":action",
 								"fields",
-								":tabId"
+								":tabId",
+								"schema"
 							],
 							"query": [
 								{
