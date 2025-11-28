@@ -1967,37 +1967,33 @@
 							}
 						},
 						"url": {
-							"raw": "{{host}}/tree/:nodeId/tabs/:action/fields/:tabId/dynamic?connectionId={{connectionId}}",
+							"raw": "{{host}}/tree/:nodeId/dynamic?connectionId={{connectionId}}&field=columns&table=data_src",
 							"host": [
 								"{{host}}"
 							],
 							"path": [
 								"tree",
 								":nodeId",
-								"tabs",
-								":action",
-								"fields",
-								":tabId",
 								"dynamic"
 							],
 							"query": [
 								{
 									"key": "connectionId",
 									"value": "{{connectionId}}"
+								},
+								{
+									"key": "field",
+									"value": "columns"
+								},
+								{
+									"key": "table",
+									"value": "data_src"
 								}
 							],
 							"variable": [
 								{
 									"key": "nodeId",
 									"value": "default.public.data_src"
-								},
-								{
-									"key": "action",
-									"value": "createTable"
-								},
-								{
-									"key": "tabId",
-									"value": "table_foreign_keys"
 								}
 							]
 						}
