@@ -2006,7 +2006,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "",
+							"raw": "{\n    \"field\":\"column\",\n    \"table\":\"data_src\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -2014,7 +2014,7 @@
 							}
 						},
 						"url": {
-							"raw": "{{host}}/tree/:nodeId/tabs/:action/fields/:tabId/dynamic?connectionId={{connectionId}}&field=columns&table=data_src",
+							"raw": "{{host}}/tree/:nodeId/tabs/:action/fields/:tabId/dynamic?connectionId={{connectionId}}",
 							"host": [
 								"{{host}}"
 							],
@@ -2031,16 +2031,6 @@
 								{
 									"key": "connectionId",
 									"value": "{{connectionId}}"
-								},
-								{
-									"key": "field",
-									"value": "columns",
-									"type": "text"
-								},
-								{
-									"key": "table",
-									"value": "data_src",
-									"type": "text"
 								}
 							],
 							"variable": [
