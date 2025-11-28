@@ -1902,53 +1902,6 @@
 					"response": []
 				},
 				{
-					"name": "schema",
-					"id": "4388555-3be0e41d-233b-48bf-86fd-638507f7088a",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "GET",
-						"header": [],
-						"url": {
-							"raw": "{{host}}/tree/:nodeId/tabs/:action/fields/:tabId/schema?connectionId={{connectionId}}",
-							"host": [
-								"{{host}}"
-							],
-							"path": [
-								"tree",
-								":nodeId",
-								"tabs",
-								":action",
-								"fields",
-								":tabId",
-								"schema"
-							],
-							"query": [
-								{
-									"key": "connectionId",
-									"value": "{{connectionId}}"
-								}
-							],
-							"variable": [
-								{
-									"key": "nodeId",
-									"value": "default.public.data_src"
-								},
-								{
-									"key": "action",
-									"value": "editColumns"
-								},
-								{
-									"key": "tabId",
-									"value": "table_columns"
-								}
-							]
-						}
-					},
-					"response": []
-				},
-				{
 					"name": "object",
 					"id": "4388555-7707e5cd-e589-47ae-876a-f53e2436c0ae",
 					"protocolProfileBehavior": {
