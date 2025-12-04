@@ -2010,8 +2010,13 @@
 						"method": "POST",
 						"header": [],
 						"body": {
-							"mode": "formdata",
-							"formdata": []
+							"mode": "raw",
+							"raw": "{\n    \"table\": {\n        \"new\": {\n            \"relname\": \"some_table1\"\n        },\n        \"old\": {\n            \"relname\": \"some_table\",\n            \"description\": \"test comment\",\n            \"persistence\": \"LOGGED\",\n            \"tablespace\": null,\n            \"rolname\": \"default\"\n        }\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
 						},
 						"url": {
 							"raw": "{{host}}/tree/:nodeId/tabs/:action/fields/object?connectionId={{connectionId}}",
